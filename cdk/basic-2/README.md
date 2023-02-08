@@ -13,6 +13,10 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
 
+Video: https://www.youtube.com/watch?v=CeqwpYhlHbQ&t=556s&ab_channel=FooBarServerless
+Code: https://github.com/mavi888/cdk-typescript-lambda
+
+
 Commands I ran:
 cdk bootstrap
 cdk synth
