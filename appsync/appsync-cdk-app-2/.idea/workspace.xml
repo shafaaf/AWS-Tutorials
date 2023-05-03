@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="465584a9-18eb-422e-a122-13a6491db1cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../appsync-cdk-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../appsync-cdk-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-fns/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-fns/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/lambda-fns/package.json" />
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2PDUa9t03ZpGWBakOzqy3OTQtO0" />
@@ -26,23 +29,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/shafhoss/Desktop/AWS-Tutorials/appsync/appsync-cdk-app-2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/shafhoss/Desktop/AWS-Tutorials/appsync/appsync-cdk-app-2/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shafhoss/Desktop/AWS-Tutorials/appsync/appsync-cdk-app-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/shafhoss/Desktop/AWS-Tutorials/appsync/appsync-cdk-app-2/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -169,7 +172,7 @@
       <workItem from="1682991209623" duration="289000" />
       <workItem from="1682991511758" duration="9197000" />
       <workItem from="1683041873479" duration="6066000" />
-      <workItem from="1683110047375" duration="711000" />
+      <workItem from="1683110047375" duration="4436000" />
     </task>
     <servers />
   </component>
@@ -177,45 +180,28 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/appsync-cdk-app.test.js" />
-        <option value="$PROJECT_DIR$/test/appsync-cdk-app.test.d.ts" />
-        <option value="$PROJECT_DIR$/bin/appsync-cdk-app.d.ts" />
-        <option value="$PROJECT_DIR$/bin/appsync-cdk-app.js" />
-        <option value="$PROJECT_DIR$/lib/appsync-cdk-app-stack.d.ts" />
-        <option value="$PROJECT_DIR$/lib/appsync-cdk-app-stack.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/updateNote.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/Note.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/createNote.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/getNoteById.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/deleteNote.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/listNotes.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/listNotes.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/main.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/createNote.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/deleteNote.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/main.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/Note.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/updateNote.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/getNoteById.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/main.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/Product.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/Product.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/listProducts.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/createProduct.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/deleteProduct.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/updateProduct.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/getProductById.js" />
-        <option value="$PROJECT_DIR$/lambda-fns/listProducts.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/createProduct.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/deleteProduct.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/updateProduct.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/getProductById.d.ts" />
-        <option value="$PROJECT_DIR$/lambda-fns/productsByCategory.js" />
         <option value="$PROJECT_DIR$/lambda-fns/productsByCategory.d.ts" />
-        <option value="$PROJECT_DIR$/lib/cdk-products-stack.js" />
+        <option value="$PROJECT_DIR$/bin/appsync-cdk-app.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/productsByCategory.js" />
+        <option value="$PROJECT_DIR$/bin/appsync-cdk-app.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/getProductById.d.ts" />
         <option value="$PROJECT_DIR$/lib/cdk-products-stack.d.ts" />
-        <option value="$PROJECT_DIR$/test/cdk-products.test.js" />
+        <option value="$PROJECT_DIR$/lib/cdk-products-stack.js" />
         <option value="$PROJECT_DIR$/test/cdk-products.test.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/main.js" />
+        <option value="$PROJECT_DIR$/test/cdk-products.test.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/Product.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/main.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/listProducts.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/Product.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/deleteProduct.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/createProduct.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/getProductById.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/updateProduct.js" />
+        <option value="$PROJECT_DIR$/lambda-fns/updateProduct.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/deleteProduct.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/createProduct.d.ts" />
+        <option value="$PROJECT_DIR$/lambda-fns/listProducts.d.ts" />
       </list>
     </option>
   </component>

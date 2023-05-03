@@ -3,8 +3,11 @@
 Done from: https://www.youtube.com/watch?v=DOGadkjV7Hs&ab_channel=NaderDabit
 Code: https://github.com/dabit3/build-an-authenticated-api-with-cdk/tree/main
 
+npm install outside and inside lambda function
 npm run build
 cdk diff
+aws configure
+cdk deploy
 
 ![Build an Authenticated GraphQL API on AWS with CDK](images/header.jpg)
 
