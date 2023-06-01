@@ -5,12 +5,14 @@ Done from: https://aws.amazon.com/blogs/mobile/building-scalable-graphql-apis-on
 ## Common commands
 
 aws configure
-npm run build && cdk diff
+cdk bootstrap
 
+npm run build && cdk diff
 The diff command compares the current version of a stack defined in your app with the already-deployed version and displays a list of differences.
 
 Build and deploy the API to see it in the AppSync console. To do so, run the following command from your terminal:
-npm run build && cdk deploy
+npm run build
+cdk deploy
 
 ### Common queries / mutations
 
