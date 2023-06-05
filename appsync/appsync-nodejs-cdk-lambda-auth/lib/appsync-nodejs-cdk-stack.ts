@@ -39,22 +39,24 @@ export class AppsyncNodejsCdkStack extends Stack {
 
     // creating appsync api
     const notesApi = new CfnGraphQLApi(this, 'NotesApiTesting',{
-      authenticationType: "AWS_LAMBDA",
-      name: `${apiUserName}-notes-appsync-endp`,
-      xrayEnabled: true,
+      authenticationType: 'AWS_LAMBDA',
       lambdaAuthorizerConfig: {
         authorizerResultTtlInSeconds: 5,
         authorizerUri: lambdaAuth.functionArn
       },
+      name: `${apiUserName}-notes-appsync-endp`,
+      xrayEnabled: true,
       logConfig: {
         cloudWatchLogsRoleArn: cloudWatchLogsRole.roleArn,
         excludeVerboseContent: false,
         fieldLogLevel: "ERROR"
-      }
+      },
+      additionalAuthenticationProviders: [{
+        authenticationType: "API_KEY",
+      }]
     })
 
-
-  // SCHEMA
+    // SCHEMA
     const  notesSchema = new CfnGraphQLSchema(this,'NotesSchema', {
       apiId: notesApi.attrApiId,
       definition: readFileSync('lib/graphql-schema/schema.graphql').toString()
